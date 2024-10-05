@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Generador de Puntos</h1>
+<p>
+    Este genera los puntos de los atletas según su categoría y la diana que dispara
+</p>
+
+<p>
+    Los atletas son cargados desde un fichero CSV separados por {@html "<strong>;</strong>"} y los carga en la lista
+</p>
+
+<nav><a href="/athletes">Cargar Atletas</a></nav>
